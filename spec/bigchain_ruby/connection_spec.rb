@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe BigchainRuby::Connection do
   describe '#request' do
-    subject { described_class.new(node_url: 'http://dummy.com') }
+    subject { described_class.new('http://dummy.com') }
 
     context 'content type handling' do
       context 'content type json' do

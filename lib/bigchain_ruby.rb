@@ -10,4 +10,5 @@ module BigchainRuby
   autoload :Utils, 'bigchain_ruby/utils'
   autoload :TransferOperation, 'bigchain_ruby/transfer_operation'
   autoload :CreateOperation, 'bigchain_ruby/create_operation'
+  autoload :Exceptions, 'bigchain_ruby/exceptions'
 end

@@ -37,4 +37,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry", "~> 0.10.4"
   spec.add_runtime_dependency 'rbnacl', '~> 4.0.1'
   spec.add_runtime_dependency 'http', '~> 2.2.1'
+  spec.add_runtime_dependency 'addressable', '~> 2.5.0'
 end

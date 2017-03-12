@@ -1,0 +1,2 @@
+class BigchainRuby::TransferOperation
+end

@@ -1,0 +1,2 @@
+class BigchainRuby::CreateOperation
+end

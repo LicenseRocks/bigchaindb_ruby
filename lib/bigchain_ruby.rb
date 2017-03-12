@@ -7,4 +7,7 @@ module BigchainRuby
   autoload :Pool, 'bigchain_ruby/pool'
   autoload :RoundRobinPicker, 'bigchain_ruby/round_robin_picker'
   autoload :Transport, 'bigchain_ruby/transport'
+  autoload :Utils, 'bigchain_ruby/utils'
+  autoload :TransferOperation, 'bigchain_ruby/transfer_operation'
+  autoload :CreateOperation, 'bigchain_ruby/create_operation'
 end

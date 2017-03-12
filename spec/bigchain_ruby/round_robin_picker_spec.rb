@@ -8,10 +8,10 @@ describe BigchainRuby::RoundRobinPicker do
     subject { described_class.new(connections) }
 
     it 'does something' do
-      expect(subject.pick(connections)).to eq(first_connection)
-      expect(subject.pick(connections)).to eq(second_connection)
-      expect(subject.pick(connections)).to eq(first_connection)
-      expect(subject.pick(connections)).to eq(second_connection)
+      expect(subject.pick).to eq(first_connection)
+      expect(subject.pick).to eq(second_connection)
+      expect(subject.pick).to eq(first_connection)
+      expect(subject.pick).to eq(second_connection)
     end
   end
 end
